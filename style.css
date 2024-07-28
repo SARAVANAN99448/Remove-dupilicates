@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    background-color:black;
+    color: white;
+    opacity: 0.9;
+    border: solid white 3px;
+    width: 30%;
+    margin-left: 35%;
+    text-align: center;
+
+}
+.search{
+    height: 20%;
+    margin-bottom: 10px;
+}
+.btn{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;    
+
+}
+.result{
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width:600px) {
+    body{
+        width: 60%;
+        position: relative;
+        right: 20%;
+        margin-left: 28%;
+        margin-top: 40%;
+    }
+    
+}@media screen and (max-width:1000px) {
+    body{
+        width: 70%;
+        position: relative;
+        right: 15%;
+        margin-left: 28%;
+        
+        
+    }
+    
+}
